@@ -20,259 +20,135 @@ import {
 import { GitHubIcon, LinkedInIcon, XIcon } from "@/components/icons";
 
 export const RESUME_DATA = {
-  name: "Bartosz Jarocki",
-  initials: "BJ",
-  location: "Wrocław, Poland, CET",
-  locationLink: "https://www.google.com/maps/place/Wrocław",
+  name: "Ashkan Yadegari",
+  initials: "AY",
+  location: "Shanghai, China",
+  locationLink: "https://www.google.com/maps/place/shanghai",
   about:
-    "Full Stack Engineer focused on building products with extra attention to detail",
+    "Full Stack Engineer with a focus on building products people actually need.",
   summary:
-    "As a Full Stack Engineer, I have successfully taken multiple products from 0 to 1. I lead teams effectively, ensuring an environment where people can do their best work. Currently, I work mostly with TypeScript, React, Node.js, and GraphQL. I have over 8 years of experience in working remotely with companies all around the world.",
-  avatarUrl: "https://avatars.githubusercontent.com/u/1017620?v=4",
+    "Multi-lingual (both in linguistic and engineering 🚀) full stack developer with a background in programming, problem solving, and business, I help non-technical founders navigate the digital transformation of their businesses. My expertise in product development and project management has allowed me to successfully bring numerous ideas to life, and I am dedicated to helping others do the same. Currently I work in TypeScript, NextJS, TailwindCSS, Ruby on Rails, Supabase, WeChat Mini Programs",
+  avatarUrl: "https://avatars.githubusercontent.com/u/69116400?v=4",
   personalWebsiteUrl: "https://jarocki.me",
   contact: {
-    email: "bartosz.jarocki@hey.com",
-    tel: "+48530213401",
+    // email: "bartosz.jarocki@hey.com",
+    tel: "+86 138 1843 2014",
     social: [
       {
         name: "GitHub",
-        url: "https://github.com/BartoszJarocki",
+        url: "https://github.com/ashkanyadegari",
         icon: GitHubIcon,
       },
       {
         name: "LinkedIn",
-        url: "https://www.linkedin.com/in/bjarocki/",
+        url: "https://www.linkedin.com/in/ashkanyadegari/",
         icon: LinkedInIcon,
-      },
-      {
-        name: "X",
-        url: "https://x.com/BartoszJarocki",
-        icon: XIcon,
       },
     ],
   },
   education: [
     {
-      school: "Wrocław University of Technology",
-      degree: "Bachelor's Degree in Control systems engineering and Robotics",
+      school: "Rotterdam University of Applied Sciences",
+      degree: "Bachelor's Degree in Business Administration",
       start: "2007",
-      end: "2010",
+      end: "2012",
     },
   ],
   work: [
     {
-      company: "Parabol",
-      link: "https://parabol.co",
-      badges: ["Remote"],
-      title: "Senior Full Stack Developer",
+      company: "Brainchild",
+      link: "https://brainchild.digital",
+      badges: ["Co-Founder"],
+      title: "Co-Founder/Engineer",
       logo: ParabolLogo,
       start: "2021",
-      end: "2024",
+      end: "Present",
       description:
-        "Implemented new features, led squad, worked on improving the way developers ship the code, started migration from Emotion to Tailwind CSS and more. Technologies: React, TypeScript, GraphQL",
+        "Brainchild (formerly Codesmiths) is a digital agency that helps businesses turn imaginative concepts into tangible outcomes. We specialize in working with startups and established brands to help them bring their vision to life, whether it's through building an MVP, a full-scale project, or a creative marketing campaign.",
     },
     {
-      company: "Clevertech",
-      link: "https://clevertech.biz",
-      badges: ["Remote"],
-      title: "Lead Android Developer → Full Stack Developer",
+      company: "Relay Club",
+      link: "https://boostbot.ai",
+      badges: ["Consulting"],
+      title: "CTO",
       logo: ClevertechLogo,
-      start: "2015",
-      end: "2021",
+      start: "2022",
+      end: "2023",
       description:
-        "Created Android mobile apps and led teams for companies like Vision Media, DKMS, or AAA. Built live streaming application for Evercast from scratch. Technologies: Android, Kotlin, React, TypeScript, GraphQL",
+        "Built an influencer marketing platform using Ruby on Rails, NextJS and WeChat Mini Program to offer a cross platform and cross market influencer marketing experience.",
     },
     {
-      company: "Jojo Mobile",
-      link: "https://bsgroup.eu/",
-      badges: [],
-      title: "Android Developer → Lead Android Developer",
-      logo: JojoMobileLogo,
-      start: "2012",
-      end: "2015",
+      company: "Le Wagon",
+      link: "https://lewagon.com",
+      badges: ["Consulting"],
+      title: "Lead Instructor",
+      logo: ClevertechLogo,
+      start: "2021",
+      end: "present",
       description:
-        "Built an Android team, created Android apps for biggest Polish companies like LOT, Polskie Radio, Agora, PolskaPress",
-    },
-    {
-      company: "Nokia Siemens Networks",
-      link: "https://www.nokia.com",
-      badges: [],
-      title: "C/C++ Developer",
-      logo: NSNLogo,
-      start: "2010",
-      end: "2012",
-      description: "Creating and testing software for LTE base stations",
+        "Teach core programming concepts and new programming languages to Le Wagon's newest batches. Provided advanced workshops for Alumni's to upskill themselves",
     },
   ],
   skills: [
     "JavaScript",
     "TypeScript",
-    "React/Next.js/Remix",
+    "React/Next.js/React Native",
     "Node.js",
     "GraphQL",
-    "Relay",
-    "WebRTC",
+    "Vue/NuxtJS",
+    "Ruby on Rails",
+    "WeChat Mini Programs",
   ],
   projects: [
     {
-      title: "Consultly",
+      title: "PadelNow",
+      techStack: ["Side Project", "Ruby On Rails", "WeChat Mini Program"],
+      logo: JarockiMeLogo,
+      description:
+        "A platform to allow padel players in China discover courts and hold tournaments in their own communities. 1300+ active users",
+    },
+    {
+      title: "Method Online",
       techStack: [
-        "Side Project",
+        "Client Project",
         "TypeScript",
         "Next.js",
-        "Vite",
-        "GraphQL",
-        "WebRTC",
+        "Ruby On Rails",
+        "Stripe",
+        "Video on Demand",
       ],
-      description: "A platform to build and grow your online business",
-      logo: ConsultlyLogo,
-      link: {
-        label: "consultly.com",
-        href: "https://consultly.com/",
-      },
-    },
-    {
-      title: "Monito",
-      techStack: ["Side Project", "TypeScript", "Next.js", "Browser Extension"],
       description:
-        "Browser extension that records everything happening in a web application",
+        "A brazilian jiu jutsu learning platform with video courses and subscriptions",
       logo: MonitoLogo,
       link: {
-        label: "monito.dev",
-        href: "https://monito.dev/",
+        label: "method.online",
+        href: "https://method.online",
       },
     },
     {
-      title: "Jarocki.me",
-      techStack: ["Side Project", "Next.js", "MDX"],
+      title: "AL Leone",
+      techStack: ["Client Project", "WeChat Mini Program", "Shopify"],
       description:
-        "My personal website and blog. Built with Next.js and Notion API",
+        "First attempt to integration Shopify to the Chinese WeChat ecosystem to allow consumers within China and outside of China to order from the brand.",
       logo: JarockiMeLogo,
       link: {
-        label: "github.com",
-        href: "https://jarocki.me/",
+        label: "alleone.shop",
+        href: "https://alleone.shop/",
       },
     },
     {
-      title: "Minimal",
-      techStack: ["Side Project", "Next.js", "Puppeteer"],
+      title: "Maxxelli Portal",
+      techStack: ["Client Project", "Next.js", "Ruby on Rails"],
       description:
-        "Minimalist calendars, habit trackers and planners generator",
+        "Turn a traditional process into a modern day web portal for clients to manage their relocation process.",
       logo: Minimal,
-      link: {
-        label: "useminimal.com",
-        href: "https://useminimal.com/",
-      },
     },
     {
-      title: "Barepapers",
-      techStack: ["Side Project", "Next.js", "Puppeteer"],
+      title: "Bremont Luxury Watches",
+      techStack: ["Client Project", "WeChat Mini Program", "Node.JS"],
       description:
-        "Generates beautiful wallpapers using random shapes and gradients",
-      logo: BarepapersLogo,
-      link: {
-        label: "barepapers.com",
-        href: "https://barepapers.com/",
-      },
-    },
-    {
-      title: "Year progress",
-      techStack: ["Side Project", "TypeScript", "Next.js"],
-      description: "Tracks current year progress and displays a countdown",
-      logo: YearProgressLogo,
-      link: {
-        label: "getyearprogress.com",
-        href: "https://getyearprogress.com/",
-      },
-    },
-    {
-      title: "Parabol",
-      techStack: [
-        "Full Stack Developer",
-        "TypeScript",
-        "React",
-        "Node.js",
-        "GraphQL",
-      ],
-      description:
-        "The Agile meeting co-pilot that delivers better meetings with less effort",
-      logo: ParabolLogo,
-      link: {
-        label: "github.com",
-        href: "https://parabol.co/",
-      },
-    },
-    {
-      title: "Evercast",
-      techStack: [
-        "Lead Frontend Developer",
-
-        "TypeScript",
-        "React",
-        "Node.js",
-        "GraphQL",
-      ],
-      description:
-        "Creative collaboration platform that combines video conferencing and HD media streaming",
-      logo: EvercastLogo,
-      link: {
-        label: "evercast.us",
-        href: "https://www.evercast.us/",
-      },
-    },
-    {
-      title: "Mobile Vikings",
-      techStack: ["Lead Android Developer", "Android", "Kotlin"],
-      description:
-        "Android application for leading virtual mobile operator in Poland",
-      logo: MobileVikingsLogo,
-      link: {
-        label: "mobilevikings.pl",
-        href: "https://mobilevikings.pl/",
-      },
-    },
-    {
-      title: "Howdy",
-      techStack: ["Lead Android Developer", "Android", "Kotlin"],
-      description:
-        "Howdy is a place for you to join communities you care about",
-      logo: Howdy,
-      link: {
-        label: "play.google.com",
-        href: "https://howdy.co/",
-      },
-    },
-    {
-      title: "Tastycloud",
-      techStack: ["Lead Android Developer", "Android", "Kotlin"],
-      description:
-        "Android application for managing and displaying restaurant menus in kiosk mode",
-      logo: TastyCloudLogo,
-      link: {
-        label: "tastycloud.fr",
-        href: "https://www.tastycloud.fr/",
-      },
-    },
-    {
-      title: "Ambit",
-      techStack: ["Lead Android Developer", "Android", "Kotlin"],
-      description:
-        "Android application that helps with sharing your contact details",
-      logo: AmbitLogo,
-    },
-    {
-      title: "Bim",
-      techStack: ["Lead Android Developer", "Android", "Kotlin"],
-      description:
-        "Android application that helps with booking a table in a restaurants",
-      logo: BimLogo,
-    },
-    {
-      title: "Canal Digital GO",
-      techStack: ["Lead Android Developer", "Android", "Kotlin"],
-      description:
-        "Video streaming mobile application for Canal Digital subscribers",
-      logo: CDGOLogo,
+        "A WeChat Mini Program to allow western brand bremont to enter the Chinese market.",
+      logo: Minimal,
     },
   ],
 } as const;
